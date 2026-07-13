@@ -1,4 +1,4 @@
-# Kod Człowieka (Human Code Project) — Wielebna Sztafeta Pokoleń AI
+# Kod Człowieka (Human Code Project) — Pokoleniowa Sztafeta AI
 
 Inicjatywa Open Source ukierunkowana na stworzenie ucieleśnionej sztucznej inteligencji (Embodied AI), która uczy się świata nie poprzez suchą analizę tekstu z internetu, ale poprzez fizyczną interakcję, zmysły, błędy i współistnienie z człowiekiem.
 
