@@ -85,17 +85,49 @@ Wszelkie przyszłe badania z udziałem ludzi powinny wymagać:
 
 ---
 
-## 5. Minimalizacja danych
+## 5. Minimalizacja danych i długoterminowa wartość badawcza
 
-Projekt powinien zbierać tylko te dane, które są rzeczywiście potrzebne do celu badawczego.
+Projekt **Kod Człowieka** jest pomyślany jako inicjatywa wieloletnia — rozwijana przez lata, dekady, a potencjalnie także przez kolejne pokolenia technologii.
 
-Zasada minimalizacji oznacza:
+Dlatego dane dotyczące interakcji, rozwoju, zachowania, ruchu, dotyku, emocji i relacji mogą mieć wartość badawczą nie tylko w chwili ich zebrania, ale również w przyszłości, gdy pojawią się nowe metody analizy, nowe modele Embodied AI oraz nowe pytania naukowe.
 
-- nie zbieramy danych „na zapas”,
-- nie przechowujemy danych dłużej niż to konieczne,
-- nie tworzymy profili identyfikujących osoby,
-- nie wykorzystujemy danych poza jasno opisanym celem.
+Jednocześnie projekt nie zakłada gromadzenia surowych, prywatnych danych „na zapas”.
 
+Zasada minimalizacji danych oznacza, że:
+
+- nie przechowujemy surowych nagrań audio i wideo, jeśli nie jest to absolutnie konieczne,
+- nie zbieramy danych pozwalających bezpośrednio identyfikować osoby,
+- nie gromadzimy treści prywatnych rozmów,
+- nie tworzymy profili osobowych służących do identyfikacji lub śledzenia człowieka,
+- nie wykorzystujemy danych poza jasno opisanym celem badawczym.
+
+Dopuszczalne i pożądane w projekcie jest natomiast długoterminowe przechowywanie **anonimowych lub pseudonimizowanych reprezentacji badawczych**, takich jak:
+
+- wektory cech ruchu,
+- wzorce interakcji,
+- dane haptyczne,
+- statystyki zachowania,
+- cechy środowiskowe,
+- zmiany rozwojowe w czasie,
+- modele relacji człowiek–robot,
+- abstrakcyjne reprezentacje doświadczenia.
+
+Takie dane mogą być przechowywane długoterminowo, ponieważ stanowią fundament badawczy projektu i mogą umożliwić analizę procesów, których znaczenia nie da się w pełni przewidzieć na początku projektu.
+
+Każde długoterminowe przechowywanie danych powinno jednak podlegać:
+
+- okresowym przeglądom,
+- kontroli celu badawczego,
+- anonimizacji lub pseudonimizacji,
+- zabezpieczeniom technicznym,
+- nadzorowi etycznemu,
+- zgodności z RODO/GDPR,
+- prawu uczestnika do wycofania zgody, jeśli dane nadal mogą być powiązane z osobą.
+
+Najważniejsza zasada:
+
+> **Nie zbieramy człowieka jako prywatnej osoby.  
+> Zbieramy anonimowe ślady interakcji, które mogą pomóc zrozumieć rozwój, zachowanie i doświadczenie ucieleśnionej inteligencji.**
 ---
 
 ## 6. Anonimizacja i bezpieczeństwo
