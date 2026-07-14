@@ -24,11 +24,13 @@ v
 * **Bezpieczeństwo danych (EU AI Act & RODO Compliance):** Surowe strumienie wideo i audio nigdy nie opuszczają urządzenia. Lokalny procesor przetwarza bodźce na abstrakcyjne, matematyczne wektory cech. Dane wrażliwe są natychmiast niszczone na poziomie sprzętowym za pomocą szyfrowania kluczem publicznym.
 
 ### 2. Unikalny Model Danych Behawioralnych i Haptycznych
-W przeciwieństwie do modeli LLM, "Kod Człowieka" zbiera unikalne w skali światowej dane:
-* **Interakcja haptyczna:** Siła, wektor i dynamika fizycznego kontaktu (głaskanie, przytulanie, podnoszenie).
-* **Propriocepcja przestrzenna:** Nauka kinetostatyki ciała robota poprzez fizyczną interakcję z otoczeniem.
-* **Audio-Vibe Telemetry:** Analiza profilu akustycznego środowiska (ton, dynamika, stres) bez rejestracji i zapisu treści mowy.
 
+W przeciwieństwie do modeli LLM, "Kod Człowieka" zbiera unikalne w skali światowej dane:
+
+*   **Interakcja haptyczna:** Siła, wektor i dynamika fizycznego kontaktu (głaskanie, przytulanie, podnoszenie).
+*   **Propriocepcja przestrzenna:** Nauka kinetostatyki ciała robota poprzez fizyczną interakcję z otoczeniem.
+*   **Audio-Vibe Telemetry:** Analiza profilu akustycznego środowiska (ton, dynamika, stres) bez rejestracji i zapisu treści mowy.
+*   **Sensoryka Środowiskowa i Mikroklimatyczna:** Ciągła analiza otoczenia za pomocą czujników gazowych (jakość powietrza, VOC), detektorów podczerwieni (temperatura obiektów i domowników) oraz parametrów fizykochemicznych, pozwalająca na błyskawiczne wykrywanie zagrożeń (np. ulatnianie się gazów, pożar).
 ---
 
 ## 🧸 Modularne Kohorty Rozwojowe (Hardware & Form Factor)
