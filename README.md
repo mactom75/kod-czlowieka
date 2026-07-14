@@ -21,6 +21,23 @@
 
 ---
 
+## 📚 Dokumentacja projektu
+
+Najważniejsze dokumenty projektu:
+
+- [ETHICS.md](ETHICS.md) — zasady etyczne projektu
+- [PRIVACY.md](PRIVACY.md) — prywatność, dane i bezpieczeństwo użytkowników
+- [ROADMAP.md](ROADMAP.md) — plan rozwoju projektu
+- [CONTRIBUTING.md](CONTRIBUTING.md) — jak dołączyć i pomóc w projekcie
+- [ARCHITECTURE.md](ARCHITECTURE.md) — architektura systemu
+- [DATA_MODEL.md](DATA_MODEL.md) — model danych i zasady ich przetwarzania
+- [PARTNERSHIPS.md](PARTNERSHIPS.md) — partnerstwa, finansowanie i zasady współpracy
+- [LICENSE](LICENSE) — licencja projektu
+
+---
+
+---
+
 ## 1. Czym jest Kod Człowieka?
 
 **Kod Człowieka / Human Code Project** to otwarta inicjatywa badawczo-rozwojowa, której celem jest stworzenie bezpiecznego, etycznego i możliwie największego na świecie zbioru danych rozwoju człowieka dla przyszłej **ucieleśnionej sztucznej inteligencji** — **Embodied AI**.
