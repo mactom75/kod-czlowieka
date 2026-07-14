@@ -353,33 +353,114 @@ Musi uwzględniać realne potrzeby ludzi.
 
 ---
 
-## 14. Model finansowania urządzeń
+## 14. Model finansowania urządzeń i dostępność społeczna
 
 Zaawansowana platforma sensoryczna może być kosztowna.
 
-Jej rzeczywisty koszt produkcji może wynosić kilka lub kilkanaście tysięcy złotych.
+Jej rzeczywisty koszt produkcji może wynosić kilka lub kilkanaście tysięcy złotych, dlatego projekt nie powinien przerzucać pełnego kosztu urządzenia na rodzinę lub użytkownika końcowego.
 
-Projekt nie powinien przerzucać pełnego kosztu na rodzinę.
+Docelowy model może zakładać finansowanie urządzeń z:
 
-Docelowy model może zakładać:
+- grantów badawczych,
+- środków publicznych,
+- programów europejskich,
+- partnerstw z instytucjami,
+- programów pilotażowych,
+- udziału firm,
+- funduszy naukowych,
+- partnerstw publiczno-prywatnych.
 
-- finansowanie z grantów,
-- finansowanie ze środków publicznych,
-- finansowanie europejskie,
-- partnerstwa z instytucjami,
-- udział firm,
-- programy pilotażowe,
-- zwrotną kaucję za urządzenie,
-- brak pełnego kosztu po stronie rodziny.
+Rodzina lub użytkownik końcowy nie powinien ponosić pełnego kosztu produkcji urządzenia.
 
-Przykładowo rodzina mogłaby płacić jedynie symboliczną lub zwrotną kaucję za urządzenie, podczas gdy produkcja byłaby finansowana z programu badawczo-społecznego.
+### Zwrotna kaucja
 
-Celem jest dostępność.
+Projekt może przewidywać symboliczną lub umiarkowaną **zwrotną kaucję** za urządzenie.
 
-Projekt nie powinien stać się luksusowym produktem tylko dla najbogatszych.
+Celem kaucji nie jest finansowanie produkcji sprzętu.
+
+Celem kaucji jest:
+
+- zwiększenie odpowiedzialności za urządzenie,
+- ograniczenie porzucania lub gubienia sprzętu,
+- zwiększenie szacunku do powierzonej platformy,
+- ułatwienie zwrotu urządzenia po zakończeniu udziału w programie,
+- ochrona infrastruktury projektu przed niepotrzebnymi stratami.
+
+Wysokość kaucji powinna być dostosowana do rynku, kraju, programu i sytuacji społecznej użytkownika.
+
+Kaucja nie powinna być ani zbyt wysoka, ani zbyt niska.
+
+Powinna być wystarczająca, aby użytkownik traktował urządzenie odpowiedzialnie, ale nie może stanowić realnej bariery finansowej dla rodziny, seniora lub osoby w trudniejszej sytuacji ekonomicznej.
+
+Najważniejsza zasada:
+
+> **Kaucja ma budować odpowiedzialność za sprzęt, a nie ograniczać dostęp do projektu.**
 
 ---
 
+### Różnorodność środowisk
+
+Projekt **Kod Człowieka** powinien dążyć do tego, aby platformy sensoryczne trafiały do możliwie różnorodnych środowisk.
+
+Im większa różnorodność środowisk, tym większa wartość badawcza projektu.
+
+Dane pochodzące tylko z jednej grupy społecznej byłyby ograniczone i mogłyby prowadzić do powstania jednostronnych modeli AI.
+
+Dlatego projekt powinien obejmować różne typy gospodarstw domowych i środowisk, na przykład:
+
+- rodziny z dziećmi,
+- rodziny wielodzietne,
+- osoby samotne,
+- osoby starsze,
+- osoby młode,
+- gospodarstwa domowe ze zwierzętami,
+- gospodarstwa domowe bez dzieci,
+- mieszkańców dużych miast,
+- mieszkańców małych miast,
+- mieszkańców wsi,
+- osoby pracujące w różnych zawodach,
+- rodziny o różnym poziomie dochodów,
+- środowiska o różnym poziomie dostępu do technologii,
+- różne style życia,
+- różne warunki mieszkaniowe,
+- różne środowiska kulturowe, religijne i światopoglądowe.
+
+Celem nie jest ocenianie tych środowisk.
+
+Celem jest zrozumienie, jak różne warunki życia wpływają na rozwój, bezpieczeństwo, interakcje, samotność, zachowanie, relacje i codzienne doświadczenie człowieka.
+
+Projekt powinien unikać tworzenia systemu opartego wyłącznie na danych z jednej klasy społecznej, jednej grupy wiekowej, jednego typu rodziny lub jednego środowiska geograficznego.
+
+Najważniejsza zasada:
+
+> **Im bardziej różnorodne środowiska, tym bardziej realistyczny, sprawiedliwy i użyteczny model Embodied AI.**
+
+---
+
+### Dostępność jako warunek jakości danych
+
+Dostępność społeczna nie jest tylko kwestią sprawiedliwości.
+
+Jest również warunkiem jakości danych.
+
+Jeżeli urządzenia trafiałyby wyłącznie do osób zamożnych, technologicznie zaawansowanych lub mieszkających w dużych miastach, projekt nie odzwierciedlałby realnego społeczeństwa.
+
+Dlatego finansowanie publiczne, grantowe i instytucjonalne ma kluczowe znaczenie.
+
+Pozwala ono tworzyć model, w którym:
+
+- rodzina otrzymuje dodatkową warstwę bezpieczeństwa,
+- senior otrzymuje wsparcie i poczucie obecności,
+- nauka otrzymuje długoterminowy materiał badawczy,
+- państwo może ograniczać przyszłe koszty społeczne,
+- firmy rozwijają kompetencje i produkcję,
+- Polska buduje nowy sektor technologiczny,
+- AI otrzymuje dane z realnego, zróżnicowanego świata.
+
+Projekt nie powinien stać się luksusowym produktem tylko dla najbogatszych.
+
+Powinien być dostępny dla różnych grup społecznych, ponieważ tylko wtedy może tworzyć wartościowe, sprawiedliwe i długoterminowe podstawy dla przyszłej ucieleśnionej sztucznej inteligencji.
+---
 ## 15. Zasady dostępu do danych
 
 Dostęp do danych powinien być ograniczony i zależny od roli.
