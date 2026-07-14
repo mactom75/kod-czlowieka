@@ -157,13 +157,42 @@ Projekt **Kod Człowieka** nie ma na celu:
 
 ---
 
-## 8. Dane medyczne i zdrowotne
+## 8. Dane medyczne, zdrowotne i sytuacje zagrożenia życia
 
-Niektóre przyszłe zastosowania projektu mogą dotyczyć bezpieczeństwa, profilaktyki lub wczesnego wykrywania zagrożeń zdrowotnych.
+Niektóre przyszłe zastosowania projektu mogą dotyczyć bezpieczeństwa, profilaktyki lub bardzo wczesnego wykrywania sygnałów potencjalnego zagrożenia zdrowia.
 
-Projekt nie jest jednak urządzeniem medycznym.
+Projekt **Kod Człowieka** nie jest jednak urządzeniem medycznym i nie zastępuje lekarza, diagnostyki medycznej, ratownika ani certyfikowanego systemu monitorowania pacjenta.
 
-Wszelkie funkcje związane ze zdrowiem, takie jak wykrywanie bezdechu, upadków, napadów padaczkowych lub stanów zagrożenia życia, wymagałyby osobnych badań, walidacji, certyfikacji oraz zgodności z obowiązującymi przepisami.
+System nie powinien samodzielnie stawiać diagnoz, podejmować decyzji terapeutycznych ani przedstawiać swoich obserwacji jako pewnych rozpoznań medycznych.
+
+Jednocześnie, jeśli podczas normalnego działania system wykryje wysokie prawdopodobieństwo sytuacji mogącej zagrażać życiu lub zdrowiu człowieka, nie powinien takiego sygnału ignorować.
+
+W takich przypadkach system może działać jako **warstwa bezpieczeństwa i wczesnego ostrzegania**, na przykład poprzez:
+
+- powiadomienie opiekuna,
+- powiadomienie rodzica lub osoby odpowiedzialnej,
+- uruchomienie lokalnego alarmu,
+- oznaczenie zdarzenia jako wymagającego sprawdzenia,
+- przekazanie informacji do osoby uprawnionej, jeśli użytkownik wcześniej wyraził na to zgodę,
+- zachowanie minimalnego, niezbędnego śladu zdarzenia do późniejszej analizy bezpieczeństwa.
+
+Przykładowe sytuacje alarmowe mogą obejmować:
+
+- możliwy bezdech,
+- możliwe zadławienie,
+- upadek,
+- długotrwały bezruch,
+- gwałtowną zmianę zachowania,
+- nietypowy wzorzec ruchu,
+- sygnały przeciążenia, dezorientacji lub utraty kontaktu z otoczeniem.
+
+Każdy taki sygnał powinien być traktowany jako **ostrzeżenie wymagające weryfikacji przez człowieka**, a nie jako diagnoza medyczna.
+
+Wszelkie przyszłe funkcje przeznaczone bezpośrednio do monitorowania, diagnozowania, zapobiegania lub leczenia chorób wymagałyby osobnych badań, walidacji, certyfikacji oraz zgodności z obowiązującymi przepisami dotyczącymi wyrobów medycznych.
+
+Najważniejsza zasada:
+
+> **Projekt nie diagnozuje człowieka, ale może pomóc zauważyć sytuację, której człowiek nie powinien przeoczyć.**
 
 ---
 
