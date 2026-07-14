@@ -2,704 +2,754 @@
 
 ## Human Code Project — Prototype Plan
 
-Projekt **Kod Człowieka (Human Code Project)** powinien rozwijać się etapami.
+Projekt **Kod Człowieka (Human Code Project)** powinien rozpocząć się od konkretnego, fizycznego i możliwego do pokazania prototypu.
 
-Pierwszy prototyp nie musi być od razu zaawansowanym humanoidalnym robotem ani drogą platformą sensoryczną. Najlepszym kierunkiem jest rozpoczęcie od prostego, bezpiecznego i możliwego do pokazania demonstratora, który udowodni główne założenia projektu.
+Głównym pierwszym prototypem projektu nie powinna być gra ani kolejny cyfrowy agent podobny do znanych koncepcji typu Tamagotchi.
 
-Prototyp powinien pokazać, że możliwe jest:
+Pierwszym właściwym prototypem powinna być:
 
-- uczenie przez interakcję,
-- długoterminowa pamięć doświadczeń,
-- analiza zachowania bez naruszania prywatności,
-- reakcja na bodźce,
-- działanie prostych sztucznych stanów wewnętrznych,
-- anonimizacja danych,
-- lokalne przetwarzanie Edge AI,
-- wykrywanie prostych zdarzeń bezpieczeństwa,
-- tworzenie wartościowych reprezentacji badawczych,
-- rozwój projektu krok po kroku.
+> **Human Code Plush Sensor Platform v0.1**  
+> miękka, modułowa, pluszowa platforma sensoryczna dla kohorty 0–2 lata.
 
----
+Celem prototypu jest pokazanie, że można stworzyć fizyczne urządzenie, które:
 
-## 1. Cel pierwszego prototypu
-
-Celem pierwszego prototypu jest pokazanie, że projekt **Kod Człowieka** może działać nie tylko jako manifest, ale także jako realny system badawczo-technologiczny.
-
-Pierwszy prototyp powinien odpowiedzieć na pytania:
-
-- czy można zbierać dane o interakcji bez naruszania prywatności?
-- czy system może uczyć się przez konsekwencje?
-- czy można tworzyć anonimowe reprezentacje zachowania?
-- czy cyfrowy lub fizyczny agent może rozwijać pamięć doświadczeń?
-- czy możliwe jest połączenie bezpieczeństwa użytkownika z wartością badawczą danych?
-- czy system może działać lokalnie, bez wysyłania surowych danych do chmury?
-- czy projekt można pokazać uczelniom, grantodawcom i partnerom technologicznym?
+- działa w realnym środowisku dziecka,
+- zbiera dane z wielu sensorów,
+- analizuje interakcje dziecko–zabawka–opiekun–otoczenie,
+- przetwarza dane lokalnie,
+- chroni prywatność,
+- tworzy anonimowe reprezentacje badawcze,
+- wykrywa wybrane sygnały bezpieczeństwa,
+- może stać się fundamentem dla przyszłej ucieleśnionej sztucznej inteligencji — **Embodied AI**.
 
 ---
 
-## 2. Dwa kierunki prototypowania
+## 1. Główna idea prototypu
 
-Projekt powinien rozwijać dwa równoległe kierunki prototypowania:
+Pierwszy prototyp ma być miękką, bezpieczną i bogato osensorowaną platformą badawczą.
+
+Nie chodzi o zwykłą zabawkę.
+
+Nie chodzi też o urządzenie medyczne.
+
+Chodzi o pierwszy demonstrator pokazujący, że można stworzyć fizyczny obiekt, który towarzyszy dziecku od najwcześniejszego etapu życia i zbiera bezpieczne, długoterminowe dane o:
+
+- ruchu,
+- dotyku,
+- nacisku,
+- mimice,
+- dźwiękach,
+- reakcjach,
+- środowisku,
+- interakcjach z opiekunami,
+- interakcjach z samym obiektem,
+- zmianach zachowania w czasie.
+
+Najważniejsze jest połączenie:
+
+- fizycznego ciała,
+- sensorów,
+- Edge AI,
+- prywatności,
+- długoterminowych danych,
+- bezpieczeństwa,
+- interakcji społecznej.
+
+---
+
+## 2. Dlaczego zaczynamy od kohorty 0–2 lata?
+
+Kohorta 0–2 lata jest jednym z najważniejszych etapów rozwoju człowieka.
+
+W tym czasie dziecko rozwija:
+
+- reakcje sensoryczne,
+- rozpoznawanie twarzy,
+- reakcje na głos,
+- rytm snu i czuwania,
+- pierwsze formy interakcji,
+- dotyk,
+- chwytanie,
+- reakcje emocjonalne,
+- relację z opiekunem,
+- reakcje na otoczenie,
+- pierwsze rozumienie konsekwencji działania.
+
+Dane z tego okresu mogą mieć ogromną wartość badawczą, ponieważ są początkiem długoterminowej „Księgi Życia”.
+
+Jeśli projekt ma badać rozwój człowieka przez całe życie, logiczne jest rozpoczęcie od najwcześniejszego etapu.
+
+---
+
+## 3. Nazwa prototypu
+
+Proponowana nazwa pierwszego prototypu:
+
+> **Human Code Plush Sensor Platform v0.1**
+
+Polska nazwa:
+
+> **Pluszowa Platforma Sensoryczna Kod Człowieka v0.1**
+
+Jest to prototyp badawczo-demonstracyjny, a nie gotowy produkt konsumencki.
+
+---
+
+## 4. Forma fizyczna
+
+Prototyp może mieć formę miękkiej maskotki lub modułu przypominającego przyjazny obiekt dziecięcy.
+
+Możliwe formy:
+
+- foczka,
+- piesek,
+- gąsienica,
+- miękka podłużna przytulanka,
+- pluszowy moduł z łapkami,
+- miękki obiekt sensoryczny,
+- forma bez ostrych i twardych elementów.
+
+Forma powinna być:
+
+- miękka,
+- bezpieczna,
+- przyjazna wizualnie,
+- pozbawiona małych odczepialnych części,
+- pozbawiona ostrych krawędzi,
+- odporna na ściskanie,
+- odporna na przypadkowe uderzenia,
+- łatwa do czyszczenia,
+- modułowa,
+- możliwa do dalszej certyfikacji.
+
+---
+
+## 5. Dwa tryby użycia dla kohorty 0–2 lata
+
+Prototyp powinien uwzględniać dwa różne etapy rozwojowe dziecka.
 
 ```text
 +-------------------------------------------------------------+
-|  Prototyp A: Cyfrowy                                        |
-|  Gra / aplikacja / symulacja / cyfrowy towarzysz            |
+|  Tryb 1: 0–1 rok                                            |
+|  Bezpiecznie mocowany moduł nad łóżeczkiem / przy łóżeczku  |
 +-------------------------------------------------------------+
 
 +-------------------------------------------------------------+
-|  Prototyp B: Fizyczny                                       |
-|  Mała platforma sensoryczna z Edge AI                       |
+|  Tryb 2: 1–2 lata                                           |
+|  Miękka przytulanka sensoryczna do bezpośredniej interakcji |
 +-------------------------------------------------------------+
 ```
 
-Prototyp cyfrowy jest szybszy, tańszy i łatwiejszy do testowania.
-
-Prototyp fizyczny pokazuje docelowy kierunek projektu: ucieleśnioną AI działającą w realnym świecie.
-
-Oba kierunki mogą rozwijać się równolegle.
+To pozwala zachować bezpieczeństwo w pierwszym roku życia, a jednocześnie budować ciągłość relacji dziecka z tym samym obiektem.
 
 ---
 
-## 3. Prototyp A — cyfrowa gra lub aplikacja
+## 6. Tryb 0–1 rok — moduł mocowany nad łóżeczkiem
 
-Pierwszy prototyp cyfrowy może mieć formę prostej gry, aplikacji, symulacji lub cyfrowego towarzysza.
+W pierwszym roku życia urządzenie nie powinno być traktowane jako luźna maskotka pozostawiana w przestrzeni snu dziecka.
 
-Użytkownik wchodzi w interakcję z cyfrowym agentem, który posiada proste zmienne systemowe:
+Zamiast tego prototyp powinien działać jako bezpiecznie zamocowany moduł sensoryczny:
 
-- pamięć,
-- potrzeby,
-- reakcje,
-- poziom zaufania,
-- poziom stresu,
-- poziom ciekawości,
-- poziom energii,
-- poziom bezpieczeństwa,
-- system nagród i konsekwencji,
-- historię interakcji.
+- nad łóżeczkiem,
+- przy łóżeczku,
+- z boku łóżeczka,
+- na specjalnym ramieniu mocującym,
+- poza bezpośrednią przestrzenią snu,
+- bez luźnych linek dostępnych dla dziecka.
 
-Nie chodzi o stworzenie świadomej AI.
-
-Chodzi o stworzenie demonstratora, który pokazuje, jak system może uczyć się z doświadczeń, konsekwencji i powtarzalnych interakcji.
+Celem tego trybu jest umożliwienie obserwacji, reakcji i ograniczonej interakcji bez umieszczania luźnego pluszowego przedmiotu w łóżeczku niemowlęcia.
 
 ---
 
-## 4. Dlaczego najpierw prototyp cyfrowy?
+## 7. Bezpieczne mocowanie
 
-Prototyp cyfrowy jest dobrym pierwszym krokiem, ponieważ:
+W dokumentacji projektu nie należy używać określenia „sznurek” jako docelowego rozwiązania technicznego.
 
-- jest tańszy niż robot fizyczny,
-- można go szybciej zbudować,
-- łatwiej go testować,
-- łatwiej go pokazać partnerom,
-- nie wymaga produkcji sprzętu,
-- pozwala sprawdzić model interakcji,
-- pozwala testować model danych,
-- może pomóc przygotować wniosek grantowy,
-- może zainteresować uczelnie i firmy technologiczne.
+Lepsze określenia:
 
-Cyfrowy demonstrator może być pierwszym dowodem, że projekt da się rozwijać praktycznie.
+- bezpieczny system mocowania,
+- certyfikowane ramię mocujące,
+- uchwyt mocujący do łóżeczka,
+- moduł crib-mounted,
+- system montażowy bez luźnych linek,
+- mocowanie poza zasięgiem zaplątania.
 
----
+System mocowania powinien być projektowany tak, aby:
 
-## 5. Przykład cyfrowego agenta
-
-Cyfrowy agent może reagować na działania użytkownika.
-
-Przykłady interakcji:
-
-- użytkownik pomaga agentowi,
-- użytkownik ignoruje agenta,
-- użytkownik działa spokojnie,
-- użytkownik działa chaotycznie,
-- użytkownik podejmuje dobre decyzje,
-- użytkownik podejmuje ryzykowne decyzje,
-- użytkownik dba o otoczenie,
-- użytkownik zaniedbuje potrzeby agenta,
-- użytkownik reaguje na ostrzeżenia,
-- użytkownik nie reaguje na ostrzeżenia.
-
-System nie ocenia moralnie człowieka.
-
-System analizuje konsekwencje interakcji i zapisuje anonimowe wzorce zachowania.
+- nie tworzyć pętli,
+- nie tworzyć ryzyka zaplątania,
+- nie odczepiać się przypadkowo,
+- nie spadać na dziecko,
+- nie mieć ostrych elementów,
+- umożliwiać łatwe odpięcie przez dorosłego,
+- spełniać wymagania bezpieczeństwa produktów dziecięcych.
 
 ---
 
-## 6. Sztuczne stany wewnętrzne
+## 8. Tryb 1–2 lata — miękka przytulanka sensoryczna
 
-Prototyp cyfrowy może posiadać proste zmienne przypominające funkcjonalne odpowiedniki stanów wewnętrznych.
+Po pierwszym roku życia, gdy dziecko jest bardziej mobilne i zdolne do świadomej manipulacji przedmiotami, urządzenie może przejść w tryb miękkiej przytulanki sensorycznej.
+
+W tym trybie dziecko może:
+
+- chwytać zabawkę,
+- ściskać łapki,
+- przytulać ją,
+- przesuwać,
+- potrząsać,
+- reagować na jej dźwięki,
+- obserwować jej reakcje,
+- budować ciągłość znajomości z obiektem.
+
+Ważne jest to, że dziecko zna ten obiekt już z wcześniejszego etapu.
+
+Ten sam obiekt przechodzi z roli bezpiecznie zamocowanego obserwatora do roli interaktywnej przytulanki.
+
+---
+
+## 9. Ciągłość relacji z obiektem
+
+Model dwufazowy tworzy ciągłość:
+
+```text
+0–1 rok: obiekt nad łóżeczkiem / przy łóżeczku
+↓
+dziecko widzi go, słyszy, reaguje na jego obecność
+↓
+1–2 lata: ten sam obiekt staje się przytulanką sensoryczną
+↓
+dziecko zna jego głos, reakcje, rytm i obecność
+```
+
+To jest bardzo ważne dla projektu, ponieważ pozwala badać nie tylko pojedyncze interakcje, ale również rozwijającą się relację dziecka z obiektem w czasie.
+
+---
+
+## 10. Najważniejsza wartość badawcza
+
+Największą wartością prototypu nie jest pojedynczy sensor.
+
+Największą wartością jest analiza relacji między wieloma sygnałami.
+
+Przykład:
+
+- dziecko ściska łapkę,
+- zabawka wydaje dźwięk,
+- kamera analizuje mimikę,
+- mikrofon analizuje reakcję dźwiękową,
+- czujniki nacisku mierzą siłę,
+- IMU mierzy ruch,
+- system zapisuje anonimowy wzorzec interakcji.
+
+To pozwala badać:
+
+- reakcję dziecka na konsekwencję,
+- pierwsze formy empatii,
+- sprawczość,
+- reakcję na dźwięk,
+- uczenie się granic,
+- powtarzalność zachowania,
+- zmianę reakcji w czasie.
+
+---
+
+## 11. Sensory środowiskowe
+
+Prototyp powinien zbierać możliwie szerokie dane o środowisku.
+
+Sensory środowiskowe mogą obejmować:
+
+- temperaturę,
+- wilgotność,
+- natężenie światła,
+- poziom hałasu,
+- jakość powietrza,
+- CO₂,
+- CO / czad,
+- VOC / lotne związki organiczne,
+- dym,
+- pyły zawieszone,
+- mikroklimat pomieszczenia,
+- ewentualnie czujnik zalania w wersji domowej.
+
+Celem jest zrozumienie, jak warunki otoczenia wpływają na:
+
+- sen,
+- płacz,
+- aktywność,
+- reakcje dziecka,
+- komfort,
+- bezpieczeństwo,
+- rytm dnia.
+
+---
+
+## 12. Sensory dotyku i nacisku
+
+Prototyp powinien posiadać sensory dotykowe i naciskowe.
+
+Możliwe miejsca integracji:
+
+- łapki,
+- tułów,
+- grzbiet,
+- ogon,
+- miękkie wypustki,
+- strefy chwytania,
+- strefy przytulania.
+
+Sensory mogą mierzyć:
+
+- siłę nacisku,
+- czas nacisku,
+- częstotliwość nacisku,
+- rytm dotyku,
+- delikatne dotknięcie,
+- mocne ściśnięcie,
+- uderzenie,
+- przytulenie,
+- ciągnięcie,
+- potrząsanie.
+
+To pozwala analizować interakcję dziecko–zabawka w sposób fizyczny, a nie tylko wizualny.
+
+---
+
+## 13. Sensory ruchu
+
+Prototyp powinien posiadać sensory ruchu.
+
+Możliwe elementy:
+
+- IMU,
+- akcelerometr,
+- żyroskop,
+- magnetometr,
+- czujnik orientacji,
+- wykrywanie drgań,
+- wykrywanie upadku,
+- wykrywanie potrząsania,
+- wykrywanie uderzenia o powierzchnię.
+
+Dzięki temu można analizować:
+
+- czy dziecko porusza zabawką,
+- czy zabawka została rzucona,
+- czy została uderzona o łóżeczko,
+- czy jest ściskana rytmicznie,
+- czy jest przytulana,
+- czy leży nieruchomo,
+- czy zmieniła położenie.
+
+---
+
+## 14. Audio
+
+Prototyp powinien posiadać mikrofon lub układ audio, ale z bardzo jasnymi ograniczeniami prywatności.
+
+System może analizować:
+
+- płacz,
+- krzyk,
+- gaworzenie,
+- mruczenie,
+- śmiech,
+- rytm dźwięku,
+- natężenie dźwięku,
+- dynamikę,
+- ogólny charakter akustyczny otoczenia.
+
+System nie powinien standardowo zapisywać prywatnych rozmów ani treści wypowiedzi opiekunów.
+
+Celem audio jest analiza sygnałów i interakcji, a nie podsłuchiwanie.
+
+---
+
+## 15. Kamera
+
+Kamera powinna być częścią prototypu, ponieważ daje bardzo ważny kontekst.
+
+Kamera może lokalnie analizować:
+
+- mimikę dziecka,
+- uśmiech,
+- płacz,
+- obecność opiekuna,
+- reakcję na twarz opiekuna,
+- pozycję dziecka,
+- ruch,
+- otoczenie,
+- warunki światła,
+- kontekst pomieszczenia,
+- reakcję dziecka na dźwięk zabawki.
+
+Kamera nie powinna być traktowana jako narzędzie nagrywania prywatnego życia.
+
+Zasada:
+
+> **Kamera analizuje lokalnie.  
+> Surowy obraz nie powinien opuszczać urządzenia.**
+
+Do badań powinny trafiać tylko bezpieczne reprezentacje, na przykład:
+
+- wykryto uśmiech,
+- wykryto płacz,
+- wykryto obecność osoby,
+- wykryto reakcję wzrokową,
+- wykryto ruch,
+- wykryto zmianę pozycji,
+- wykryto interakcję.
+
+---
+
+## 16. Analiza gazów i jakości powietrza
+
+Jednym z ważnych kierunków jest analiza składu i jakości powietrza.
+
+Możliwe sensory:
+
+- CO₂,
+- CO,
+- VOC,
+- dym,
+- pyły,
+- jakość powietrza,
+- wilgotność,
+- temperatura.
+
+W przyszłości można rozważyć bardziej zaawansowane czujniki chemiczne, jeśli będą bezpieczne, dostępne i uzasadnione badawczo.
+
+Celem nie jest diagnozowanie chorób.
+
+Celem jest analiza środowiska oraz wykrywanie warunków mogących wpływać na komfort, bezpieczeństwo i zachowanie dziecka.
+
+---
+
+## 17. Interakcja dziecko–zabawka
+
+Najważniejszym elementem prototypu jest interakcja.
+
+Zabawka nie powinna być tylko biernym czujnikiem.
+
+Powinna reagować na działania dziecka w prosty, zrozumiały i bezpieczny sposób.
+
+Przykłady reakcji:
+
+- spokojny dźwięk,
+- mruczenie,
+- delikatne westchnięcie,
+- dźwięk zaciekawienia,
+- dźwięk radości,
+- dźwięk dyskomfortu,
+- delikatny sygnał protestu,
+- cichy płacz,
+- uspokajający ton.
+
+Celem jest stworzenie prostego języka interakcji, który dziecko może intuicyjnie rozumieć.
+
+---
+
+## 18. Zabawka jako obiekt społeczny
+
+Prototyp powinien działać jak prosty obiekt społeczny.
+
+Nie chodzi o udawanie prawdziwej świadomości.
+
+Chodzi o to, aby dziecko otrzymywało czytelny sygnał:
+
+- delikatny dotyk → pozytywna reakcja,
+- mocny nacisk → sygnał dyskomfortu,
+- uderzenie → sygnał bólu lub protestu,
+- przytulenie → spokojny dźwięk,
+- obecność opiekuna → inny wzorzec reakcji.
+
+To może pomóc badać, jak dziecko reaguje na konsekwencje swojego działania.
+
+---
+
+## 19. Przykład: delikatny dotyk
+
+```text
+Dziecko delikatnie dotyka łapki.
+↓
+Czujnik wykrywa niski nacisk.
+↓
+Zabawka wydaje spokojny, przyjazny dźwięk.
+↓
+Kamera analizuje mimikę dziecka.
+↓
+Mikrofon analizuje reakcję dźwiękową.
+↓
+System zapisuje anonimowy wzorzec pozytywnej interakcji.
+```
+
+Możliwy zapis badawczy:
+
+```text
+typ_interakcji: delikatny_dotyk
+siła_nacisku: niska
+czas_kontaktu: 3 sekundy
+reakcja_zabawki: dźwięk_spokojny
+reakcja_dziecka: uśmiech / brak reakcji / wokalizacja
+```
+
+---
+
+## 20. Przykład: mocne ściśnięcie
+
+```text
+Dziecko mocno ściska łapkę.
+↓
+Czujnik wykrywa wysoki nacisk.
+↓
+Zabawka wydaje delikatny dźwięk dyskomfortu.
+↓
+System obserwuje, czy dziecko puszcza, powtarza nacisk, patrzy na zabawkę lub reaguje emocjonalnie.
+↓
+Tworzony jest anonimowy wzorzec interakcji.
+```
+
+Możliwy zapis badawczy:
+
+```text
+typ_interakcji: mocne_ściśnięcie
+siła_nacisku: wysoka
+czas_kontaktu: 2 sekundy
+reakcja_zabawki: sygnał_dyskomfortu
+reakcja_dziecka: przerwanie / powtórzenie / śmiech / płacz / brak reakcji
+```
+
+---
+
+## 21. Przykład: uderzenie zabawką
+
+```text
+Dziecko uderza zabawką o łóżeczko lub podłoże.
+↓
+IMU wykrywa gwałtowny ruch i uderzenie.
+↓
+Zabawka wydaje krótki dźwięk protestu lub bólu.
+↓
+System analizuje reakcję dziecka.
+↓
+System zapisuje anonimowy wzorzec konsekwencji działania.
+```
+
+Możliwy zapis badawczy:
+
+```text
+typ_interakcji: uderzenie
+siła_zdarzenia: średnia / wysoka
+reakcja_zabawki: krótki_sygnał_bólu
+reakcja_dziecka: kontynuacja / zatrzymanie / zainteresowanie / płacz / śmiech
+```
+
+---
+
+## 22. Ważna zasada: brak karania dziecka
+
+Zabawka nie powinna karać dziecka.
+
+Nie powinna straszyć.
+
+Nie powinna wywoływać traumy.
+
+Nie powinna manipulować emocjami.
+
+Jej reakcje powinny być:
+
+- delikatne,
+- krótkie,
+- zrozumiałe,
+- bezpieczne,
+- proporcjonalne,
+- kontrolowane,
+- możliwe do wyłączenia przez opiekuna.
+
+Zabawka daje sygnał społeczny, a nie karę.
+
+Najważniejsza zasada:
+
+> **Zabawka nie karze dziecka.  
+> Zabawka komunikuje prostą konsekwencję interakcji.**
+
+---
+
+## 23. Edge AI
+
+Prototyp powinien korzystać z lokalnego przetwarzania danych.
+
+Warstwa Edge AI odpowiada za:
+
+- analizę obrazu lokalnie,
+- analizę audio lokalnie,
+- analizę dotyku,
+- analizę nacisku,
+- analizę ruchu,
+- analizę środowiska,
+- wykrywanie zdarzeń,
+- tworzenie anonimowych wektorów cech,
+- odrzucanie danych surowych,
+- lokalne alarmy.
+
+Do chmury nie powinny trafiać prywatne nagrania audio lub wideo jako standardowe dane badawcze.
+
+---
+
+## 24. Dane lokalne
+
+Dane lokalne to dane analizowane bezpośrednio na urządzeniu.
 
 Przykłady:
 
-```text
-energy = poziom energii
-stress = poziom stresu
-trust = poziom zaufania
-curiosity = poziom ciekawości
-safety = poziom bezpieczeństwa
-bond = poziom więzi z użytkownikiem
-memory = historia doświadczeń
-attention = poziom uwagi
-risk = poziom ryzyka
-comfort = poziom komfortu
-```
+- obraz z kamery,
+- dźwięk z mikrofonu,
+- sygnały z nacisku,
+- sygnały z IMU,
+- dane z czujników gazów,
+- dane z czujników środowiskowych.
 
-Te zmienne nie oznaczają prawdziwych emocji.
-
-Są matematycznym modelem reakcji systemu.
-
-Projekt powinien jasno rozróżniać:
-
-- prawdziwe ludzkie emocje,
-- symulację emocji,
-- funkcjonalne odpowiedniki stanów wewnętrznych,
-- zmienne systemowe wpływające na decyzje agenta.
+Dane te mogą być przetwarzane lokalnie i natychmiast redukowane do bezpiecznych reprezentacji.
 
 ---
 
-## 7. Przykład działania — pozytywna interakcja
+## 25. Anonimowe reprezentacje badawcze
 
-Przykład:
+Do badań mogą trafiać wyłącznie dane przetworzone, anonimowe lub pseudonimizowane.
 
-```text
-Użytkownik często reaguje spokojnie i pomaga agentowi.
-↓
-Poziom zaufania rośnie.
-↓
-Poziom stresu spada.
-↓
-Agent chętniej podejmuje interakcję.
-↓
-System zapisuje anonimowy wzorzec pozytywnej relacji.
-```
+Przykłady:
 
-Taki zapis może pomóc badać, jak powtarzalne interakcje wpływają na zachowanie systemu.
-
----
-
-## 8. Przykład działania — interakcja ryzykowna
-
-Przykład:
-
-```text
-Użytkownik często ignoruje alarmy lub działa chaotycznie.
-↓
-Poziom ryzyka rośnie.
-↓
-Poziom stresu agenta rośnie.
-↓
-Agent częściej uruchamia komunikaty bezpieczeństwa.
-↓
-System zapisuje anonimowy wzorzec ryzyka interakcji.
-```
-
-Taki zapis nie powinien być używany do karania użytkownika.
-
-Może jednak mieć wartość badawczą i bezpieczeństwa.
-
----
-
-## 9. Jakie dane może zbierać prototyp cyfrowy?
-
-Prototyp cyfrowy może zbierać wyłącznie dane niskiego ryzyka, na przykład:
-
-- czas reakcji,
-- częstotliwość interakcji,
-- wybory użytkownika,
-- kolejność działań,
 - typ interakcji,
-- przerwania interakcji,
-- powtarzalne wzorce zachowania,
-- reakcje na komunikaty,
-- długoterminową zmianę zachowania w aplikacji,
-- skuteczność ostrzeżeń,
-- zmianę poziomu zaangażowania.
+- siła nacisku,
+- czas trwania kontaktu,
+- reakcja dziecka jako kategoria,
+- reakcja zabawki,
+- zmiana mimiki jako kategoria,
+- poziom hałasu,
+- zmiana ruchu,
+- warunki środowiskowe,
+- sygnał bezpieczeństwa,
+- wzorzec interakcji w czasie.
 
-Nie powinien zbierać:
+Celem nie jest przechowywanie prywatnego obrazu lub dźwięku.
 
-- prywatnych rozmów,
-- danych wrażliwych,
-- danych identyfikujących osobę,
-- nagrań audio,
-- nagrań wideo,
-- lokalizacji,
-- danych biometrycznych,
-- danych finansowych,
-- danych medycznych bez osobnej podstawy prawnej i etycznej.
+Celem jest przechowywanie bezpiecznych reprezentacji doświadczenia.
 
 ---
 
-## 10. Prototyp cyfrowy jako gra badawcza
+## 26. Tryby bezpieczeństwa
 
-Jednym z możliwych kierunków jest stworzenie gry badawczej.
+Prototyp może zawierać tryby bezpieczeństwa.
 
-Gra może pozwalać użytkownikowi opiekować się cyfrowym agentem, podejmować decyzje i obserwować konsekwencje.
+Możliwe wykrywane zdarzenia:
 
-Przykładowe mechaniki:
-
-- karmienie lub ładowanie energii agenta,
-- reagowanie na potrzeby,
-- reagowanie na alarmy,
-- wykonywanie prostych zadań,
-- dbanie o środowisko,
-- podejmowanie decyzji społecznych,
-- budowanie zaufania,
-- obserwowanie długoterminowych skutków działań.
-
-Gra może być atrakcyjna dla użytkownika, ale jej główną funkcją jest testowanie modelu interakcji i danych.
-
----
-
-## 11. Prototyp cyfrowy jako demonstrator dla uczelni i grantów
-
-Prototyp cyfrowy może być użyty jako demonstrator w rozmowach z:
-
-- uczelniami,
-- instytutami badawczymi,
-- programami grantowymi,
-- partnerami technologicznymi,
-- firmami AI,
-- firmami zajmującymi się syntezą mowy,
-- projektantami gier,
-- fundacjami,
-- instytucjami publicznymi.
-
-Taki demonstrator może pokazać, że projekt posiada:
-
-- jasną architekturę,
-- model danych,
-- zasady prywatności,
-- mechanizm interakcji,
-- potencjał badawczy,
-- możliwość rozwoju w kierunku fizycznej platformy sensorycznej.
-
----
-
-## 12. Prototyp B — fizyczna platforma sensoryczna
-
-Drugi kierunek to prosty prototyp fizyczny.
-
-Nie musi to być od razu humanoidalny robot.
-
-Pierwsza wersja może być małą, miękką platformą sensoryczną, która analizuje:
-
-- ruch,
-- dotyk,
-- nacisk,
-- temperaturę,
-- wilgotność,
-- dźwięk jako sygnał akustyczny bez zapisu rozmów,
-- światło,
+- długotrwały bezruch,
+- nietypowy płacz,
+- nagły krzyk,
+- zbyt wysoka temperatura,
+- zbyt niska temperatura,
+- niebezpieczna wilgotność,
+- wzrost CO₂,
 - czad,
 - dym,
-- zalanie,
-- bezruch,
-- upadek urządzenia,
-- nietypowe zdarzenia środowiskowe.
+- zła jakość powietrza,
+- silne uderzenie,
+- upadek zabawki,
+- nietypowa sytuacja w otoczeniu.
+
+System nie diagnozuje.
+
+System może jedynie ostrzec opiekuna, że dana sytuacja wymaga sprawdzenia.
 
 ---
 
-## 13. Możliwa forma fizyczna
+## 27. Panel demonstracyjny
 
-Pierwszy prototyp fizyczny może mieć formę:
+Do prototypu warto stworzyć prosty panel demonstracyjny.
 
-- miękkiej zabawki sensorycznej,
-- małego robota stacjonarnego,
-- poduszki sensorycznej,
-- maskotki badawczej,
-- urządzenia domowego,
-- cyfrowego towarzysza dla seniora,
-- modułu laboratoryjnego z czujnikami,
-- prostego zestawu edukacyjno-badawczego.
+Panel może pokazywać:
 
-Najważniejsze nie jest to, aby wyglądał efektownie.
+- aktualne odczyty sensorów,
+- typ wykrytej interakcji,
+- poziom nacisku,
+- poziom hałasu,
+- temperaturę,
+- wilgotność,
+- jakość powietrza,
+- wykrycie uśmiechu / płaczu jako kategorię,
+- historię zdarzeń,
+- anonimowy wektor cech,
+- decyzję lokalnego systemu.
 
-Najważniejsze jest to, aby pokazał działanie:
+Panel nie powinien pokazywać prywatnego nagrania jako głównego trybu działania.
 
-- czujników,
-- lokalnej analizy,
-- anonimizacji,
-- alarmów,
-- zapisu reprezentacji badawczych,
-- zasad Privacy by Design.
+Panel ma pokazać, że system potrafi redukować dane surowe do bezpiecznych reprezentacji.
 
 ---
 
-## 14. Proponowane komponenty fizyczne
+## 28. Symulacja komputerowa
 
-Pierwsza wersja sprzętowa może wykorzystywać:
+Oprócz fizycznego prototypu można stworzyć prostą symulację komputerową działania systemu.
 
-- Raspberry Pi lub podobny komputer jednopłytkowy,
-- akcelerator AI / NPU,
-- mikrokontroler,
-- IMU,
-- czujniki nacisku,
-- czujniki dotyku,
-- mikrofon do analizy cech dźwięku,
-- czujnik temperatury,
-- czujnik wilgotności,
-- czujnik jakości powietrza,
-- czujnik czadu,
-- czujnik dymu,
-- czujnik zalania,
-- czujnik światła,
-- moduł komunikacji lokalnej,
-- obudowę miękką lub tekstylną.
+Symulacja może pokazywać:
+
+- jak działa czujnik nacisku,
+- jak zmienia się reakcja zabawki,
+- jak system zapisuje wektor cech,
+- jak wygląda przepływ danych,
+- jak dane surowe są odrzucane,
+- jak powstaje anonimowy zapis badawczy.
+
+Symulacja nie jest głównym prototypem.
+
+Jest narzędziem demonstracyjnym dla partnerów, uczelni i grantodawców.
 
 ---
 
-## 15. Edge AI w prototypie
+## 29. Liczba pierwszych prototypów
 
-Prototyp fizyczny powinien realizować zasadę:
+Pierwszym celem może być stworzenie od 1 do 10 prototypów.
 
-> **Surowe dane pozostają lokalnie.**
+Etap 1:
 
-Na urządzeniu powinny działać proste algorytmy lokalne:
+- 1 prototyp laboratoryjny,
+- testy sensorów,
+- testy mocowania,
+- testy danych,
+- testy panelu.
 
-- wykrywanie dotyku,
-- wykrywanie nacisku,
-- wykrywanie ruchu,
-- wykrywanie bezruchu,
-- wykrywanie zdarzeń środowiskowych,
-- analiza poziomu dźwięku,
-- analiza rytmu aktywności,
-- tworzenie anonimowych wektorów cech,
-- uruchamianie lokalnych alarmów.
+Etap 2:
 
-Do dalszej analizy nie powinny trafiać prywatne nagrania.
+- 3 prototypy demonstracyjne,
+- pokaz dla partnerów,
+- pokaz dla uczelni,
+- poprawki techniczne.
 
----
+Etap 3:
 
-## 16. Przykładowy przepływ danych prototypu
-
-```text
-[ Czujnik dotyku / ruchu / środowiska ]
-        |
-        v
-[ Lokalna analiza na urządzeniu ]
-        |
-        v
-[ Odrzucenie danych surowych ]
-        |
-        v
-[ Utworzenie anonimowego wektora cech ]
-        |
-        v
-[ Lokalny alarm lub zapis zdarzenia ]
-        |
-        v
-[ Bezpieczny zapis badawczy ]
-```
+- 10 prototypów pilotażowych,
+- testy kontrolowane,
+- zbieranie pierwszych danych testowych,
+- przygotowanie dokumentacji grantowej.
 
 ---
 
-## 17. Przykład zdarzenia środowiskowego
-
-Przykład: urządzenie wykrywa możliwe zagrożenie środowiskowe.
-
-```text
-czujnik_czadu: wysoki poziom
-czas_trwania: 120 sekund
-reakcja: alarm lokalny
-zapis_badawczy: anonimowy sygnał środowiskowy
-```
-
-System może ostrzec człowieka.
-
-Nie musi wysyłać żadnych nagrań audio ani wideo.
-
----
-
-## 18. Przykład zdarzenia bezpieczeństwa
-
-Przykład: urządzenie wykrywa możliwy upadek seniora.
-
-System może lokalnie przeanalizować:
-
-- gwałtowny ruch,
-- uderzenie,
-- zmianę pozycji,
-- brak ruchu po zdarzeniu,
-- brak reakcji akustycznej,
-- nietypowy wzorzec aktywności.
-
-Do opiekuna może trafić alert:
-
-```text
-Możliwe zdarzenie bezpieczeństwa. Sprawdź sytuację.
-```
-
-Do badań nie musi trafiać nagranie wideo ani dźwięk.
-
-Do badań może trafić anonimowy zapis zdarzenia:
-
-```text
-typ_zdarzenia: możliwy_upadek
-czas_trwania_bezruchu: 180 sekund
-siła_zdarzenia: wysoka
-reakcja_po_zdarzeniu: brak aktywności
-środowisko: dom / pokój
-```
-
-Taki zapis może mieć wartość badawczą i bezpieczeństwa, bez ujawniania prywatnego nagrania.
-
----
-
-## 19. Prototyp dla dziecka
-
-W przyszłości fizyczna platforma może pełnić funkcję bezpiecznej zabawki sensorycznej.
-
-Może pomagać w:
-
-- wykrywaniu zagrożeń środowiskowych,
-- monitorowaniu sygnałów bezpieczeństwa,
-- analizie rytmu interakcji,
-- obserwacji zmian rozwojowych,
-- budowaniu długoterminowego modelu danych,
-- wspieraniu rodzica lub opiekuna.
-
-System nie zastępuje rodzica.
-
-System nie diagnozuje dziecka.
-
-System może być dodatkową warstwą bezpieczeństwa i źródłem anonimowych danych badawczych.
-
----
-
-## 20. Prototyp dla seniora
-
-W przyszłości fizyczna platforma może pełnić funkcję cyfrowego towarzysza dla osoby starszej lub samotnej.
-
-Może pomagać w:
-
-- wykrywaniu upadków,
-- wykrywaniu długotrwałego bezruchu,
-- przypominaniu o rutynie dnia,
-- sygnalizowaniu zagrożeń środowiskowych,
-- komunikacji z rodziną lub opiekunem,
-- ograniczaniu samotności,
-- tworzeniu bezpiecznych danych badawczych o starzeniu i opiece.
-
-System nie zastępuje opiekuna ani lekarza.
-
-Może jednak pomóc zauważyć sytuacje, których człowiek nie powinien przeoczyć.
-
----
-
-## 21. Połączenie prototypu cyfrowego i fizycznego
-
-Docelowo prototyp cyfrowy i fizyczny mogą zostać połączone.
-
-Przykład:
-
-- cyfrowy agent posiada pamięć i model interakcji,
-- fizyczne urządzenie dostarcza dane sensoryczne,
-- Edge AI przetwarza dane lokalnie,
-- system tworzy anonimowe reprezentacje badawcze,
-- użytkownik widzi prosty interfejs,
-- badacze analizują dane bez dostępu do prywatnych nagrań.
-
-Takie połączenie może stać się pierwszą wersją właściwej platformy **Human Code Project**.
-
----
-
-## 22. Integracja z modelem językowym
-
-W późniejszym etapie prototyp może zostać połączony z modelem językowym.
-
-Model językowy może wspierać:
-
-- rozmowę z użytkownikiem,
-- wyjaśnianie komunikatów,
-- prostą edukację,
-- wsparcie seniora,
-- komunikację z rodzicem,
-- interpretację ustawień,
-- obsługę aplikacji,
-- generowanie raportów dla użytkownika.
-
-Model językowy nie powinien mieć bezpośredniego dostępu do prywatnych danych surowych.
-
-Powinien pracować na danych ograniczonych, bezpiecznych i zgodnych ze zgodą użytkownika.
-
----
-
-## 23. Integracja z syntezą mowy
-
-W przyszłości prototyp może wykorzystywać syntezę mowy.
-
-Głos może służyć do:
-
-- ostrzegania,
-- komunikacji,
-- wsparcia seniora,
-- interakcji z dzieckiem,
-- wyjaśniania sytuacji,
-- zmniejszania samotności,
-- zwiększania dostępności urządzenia.
-
-Głos nie powinien służyć manipulacji emocjonalnej.
-
-Głos powinien być:
-
-- spokojny,
-- zrozumiały,
-- bezpieczny,
-- transparentny,
-- dostosowany do kontekstu,
-- nienachalny.
-
----
-
-## 24. Co prototyp powinien udowodnić?
-
-Pierwszy prototyp powinien udowodnić, że możliwe jest:
-
-- zbieranie danych bez naruszania prywatności,
-- lokalne przetwarzanie Edge AI,
-- tworzenie anonimowych reprezentacji badawczych,
-- długoterminowe zapisywanie wzorców,
-- wykrywanie prostych zdarzeń bezpieczeństwa,
-- tworzenie podstaw dla Embodied AI,
-- pokazanie wartości projektu partnerom i grantodawcom,
-- rozwój systemu etapami,
-- połączenie korzyści społecznych z wartością naukową.
-
----
-
-## 25. Czego prototyp nie powinien robić?
+## 30. Czego prototyp nie robi
 
 Pierwszy prototyp nie powinien:
 
 - diagnozować chorób,
-- udawać świadomej istoty,
-- nagrywać prywatnych rozmów,
-- wysyłać obrazu do chmury,
-- identyfikować twarzy,
-- profilować użytkownika komercyjnie,
-- podejmować decyzji wysokiego ryzyka,
-- zastępować rodzica, opiekuna, lekarza lub ratownika,
-- służyć do scoringu społecznego,
-- służyć do ukrytej obserwacji człowieka.
-
----
-
-## 26. Minimalny demonstrator
-
-Minimalny demonstrator projektu może być bardzo prosty.
-
-### Wersja cyfrowa
-
-- aplikacja lub gra,
-- prosty agent,
-- kilka stanów wewnętrznych,
-- historia interakcji,
-- eksport anonimowych danych testowych,
-- panel pokazujący zmianę parametrów w czasie.
-
-### Wersja fizyczna
-
-- małe urządzenie z czujnikami,
-- lokalna analiza,
-- prosty alarm,
-- zapis anonimowego zdarzenia,
-- brak wysyłania danych surowych,
-- prosty panel diagnostyczny.
-
-To wystarczy, aby rozpocząć rozmowy z partnerami.
-
----
-
-## 27. Kolejne etapy prototypowania
-
-Po pierwszym demonstratorze można rozwijać:
-
-- lepszy model interakcji,
-- bardziej zaawansowane czujniki,
-- aplikację mobilną,
-- panel użytkownika,
-- system zgód,
-- model długoterminowej pamięci,
-- platformę danych badawczych,
-- fizyczną obudowę,
-- integrację z modelem językowym,
-- integrację z syntezą mowy,
-- pilotaż laboratoryjny,
-- dokumentację grantową,
-- testy bezpieczeństwa,
-- testy UX,
-- model produkcji urządzenia.
-
----
-
-## 28. Potencjalni partnerzy prototypu
-
-Do prototypu mogą wnieść wartość:
-
-- programiści,
-- elektronicy,
-- projektanci gier,
-- projektanci UX,
-- psychologowie,
-- pedagodzy,
-- inżynierowie robotyki,
-- specjaliści Edge AI,
-- specjaliści od bezpieczeństwa danych,
-- uczelnie,
-- firmy technologiczne,
-- partnerzy AI,
-- partnerzy głosowi,
-- producenci elektroniki,
-- instytucje grantowe,
-- organizacje społeczne,
-- fundacje,
-- laboratoria badawcze.
-
----
-
-## 29. Propozycja pierwszego zadania praktycznego
-
-Pierwszym praktycznym zadaniem może być stworzenie prostego prototypu cyfrowego:
-
-**Human Code Digital Companion — wersja 0.1**
-
-Minimalne funkcje:
-
-- cyfrowy agent na ekranie,
-- kilka stanów wewnętrznych,
-- możliwość interakcji użytkownika,
-- zmiana parametrów po interakcji,
-- zapis historii działań,
-- eksport anonimowego pliku testowego,
-- brak logowania,
-- brak danych osobowych,
-- brak audio i wideo.
-
-Taki prototyp może zostać pokazany publicznie jako pierwszy demonstrator idei.
-
----
-
-## 30. Propozycja pierwszego prototypu fizycznego
-
-Pierwszym prototypem fizycznym może być:
-
-**Human Code Sensor Box — wersja 0.1**
-
-Minimalne funkcje:
-
-- czujnik ruchu,
-- czujnik dotyku lub nacisku,
-- czujnik temperatury,
-- czujnik wilgotności,
-- czujnik dymu lub czadu,
-- lokalny alarm,
-- lokalna analiza,
-- zapis anonimowego zdarzenia,
-- brak kamery,
-- brak zapisu rozmów,
-- brak wysyłania danych surowych.
-
-Taki prototyp może pokazać podstawy architektury Edge AI i Privacy by Design.
+- zastępować rodzica,
+- zastępować lekarza,
+- zastępować opiekuna,
+- nagrywać prywatnych rozmów jako celu systemu,
+- wysyłać surowego obrazu do chmury,
+- tworzyć bazy twarzy,
+- profilować rodziny komercyjnie,
+- oceniać dziecka moralnie,
+- karać dziecka,
+- służyć do inwigilacji,
+- służyć do manipulacji emocjonalnej.
 
 ---
 
@@ -708,22 +758,48 @@ Taki prototyp może pokazać podstawy architektury Edge AI i Privacy by Design.
 Pierwszy prototyp można uznać za udany, jeśli:
 
 - działa stabilnie,
-- jasno pokazuje ideę projektu,
-- nie zbiera danych wrażliwych,
-- tworzy anonimowy zapis zdarzeń,
-- ma prosty model interakcji,
-- można go pokazać partnerom,
-- można go opisać we wniosku grantowym,
-- można go dalej rozwijać,
-- jest zgodny z `ETHICS.md`,
-- jest zgodny z `PRIVACY.md`,
-- jest zgodny z `DATA_MODEL.md`.
+- zbiera dane z wielu sensorów,
+- kamera działa lokalnie,
+- audio jest analizowane bez zapisu rozmów,
+- dotyk i nacisk są mierzone,
+- urządzenie potrafi zareagować na interakcję,
+- dane surowe są redukowane lokalnie,
+- powstają anonimowe reprezentacje badawcze,
+- panel demonstracyjny pokazuje działanie systemu,
+- urządzenie pokazuje wartość dla rodziców,
+- urządzenie pokazuje wartość dla nauki,
+- urządzenie pokazuje wartość dla partnerów,
+- projekt jest zgodny z ETHICS.md,
+- projekt jest zgodny z PRIVACY.md,
+- projekt jest zgodny z DATA_MODEL.md.
 
 ---
 
-## 32. Zasada końcowa
+## 32. Kolejne etapy rozwoju
 
-> **Pierwszy prototyp nie musi być doskonały.  
-> Musi jasno pokazać, że projekt można zbudować krok po kroku.**
+Po wersji v0.1 można rozwijać:
 
-Projekt **Kod Człowieka** powinien zaczynać od małych, bezpiecznych demonstratorów, a następnie rozwijać się w kierunku pełnego ekosystemu Embodied AI.
+- lepszą obudowę,
+- bezpieczniejsze mocowanie,
+- certyfikację,
+- lepsze sensory,
+- lepszy panel,
+- aplikację dla opiekuna,
+- system zgód,
+- model danych długoterminowych,
+- integrację z modelem językowym,
+- integrację z syntezą mowy,
+- wersję dla kohorty 2–7 lat,
+- wersję senioralną,
+- program pilotażowy,
+- dokumentację grantową,
+- partnerstwa naukowe i technologiczne.
+
+---
+
+## 33. Zasada końcowa
+
+> **Pierwszy prototyp nie ma być zabawką dla zabawy.  
+> Ma być pierwszym fizycznym ciałem projektu Kod Człowieka.**
+
+Projekt **Kod Człowieka** powinien zacząć od konkretnego, fizycznego i bezpiecznego demonstratora: pluszowej platformy sensorycznej, która pozwala badać interakcję, środowisko, reakcje i rozwój człowieka od najwcześniejszego etapu życia.
