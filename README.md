@@ -16,7 +16,6 @@
 
 📧 **humancode.office@gmail.com**  
 🌐 **https://kodczlowieka.pl**  
-🌐 **https://humancodeproject.io**
 
 </div>
 
@@ -597,7 +596,6 @@ To repozytorium będzie rozwijane jako główne miejsce dokumentacji technicznej
 
 📧 **humancode.office@gmail.com**  
 🌐 **https://kodczlowieka.pl**  
-🌐 **https://humancodeproject.io**
 
 Możesz również:
 
