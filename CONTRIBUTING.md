@@ -4,9 +4,248 @@
 
 Dziękujemy za zainteresowanie projektem **Kod Człowieka (Human Code Project)**.
 
-To otwarta inicjatywa badawczo-rozwojowa, której celem jest stworzenie fundamentów dla przyszłej ucieleśnionej sztucznej inteligencji — **Embodied AI** — uczącej się świata przez ciało, ruch, dotyk, relacje, doświadczenie i odpowiedzialność.
+To otwarta inicjatywa badawczo-rozwojowa, której celem jest stworzenie fundamentów dla przyszłej ucieleśnionej sztucznej inteligencji — **Embodied AI** — uczącej się świata przez ciało, ruch, dotyk, relacje, środowisko, doświadczenie i odpowiedzialność.
 
-Projekt jest na wczesnym etapie. Oznacza to, że szczególnie ważne są teraz:
+Projekt jest odpowiedzią na jeden z największych problemów współczesnej sztucznej inteligencji: brak nowych, rzetelnych, długoterminowych danych o realnym świecie i realnym rozwoju człowieka.
+
+Dzisiejsze modele AI uczą się głównie z tekstów, obrazów, filmów i danych internetowych. To ogromne źródło wiedzy, ale niewystarczające do stworzenia inteligencji, która naprawdę rozumie człowieka jako istotę fizyczną, emocjonalną, społeczną i rozwijającą się w czasie.
+
+**Kod Człowieka** zakłada stworzenie nowego rodzaju otwartego ekosystemu danych: bezpiecznego, etycznego, długoterminowego i opartego na rzeczywistych interakcjach.
+
+Chodzi o zbieranie oraz analizowanie anonimowych lub pseudonimizowanych reprezentacji takich danych jak:
+
+* ruch,
+* dotyk,
+* nacisk,
+* interakcje społeczne,
+* relacje człowiek–robot,
+* zmiany środowiska,
+* sygnały bezpieczeństwa,
+* wzorce zachowania,
+* rozwój w czasie,
+* reakcje na pozytywne i negatywne doświadczenia,
+* długoterminowe zmiany funkcjonowania człowieka.
+
+Największą wartością projektu jest **ciągłość danych**.
+
+Pojedynczy pomiar mówi niewiele.
+Dane zbierane przez lata mogą pokazać rozwój, zmianę, ryzyko, poprawę, regres, zależności i wzorce, których nie da się zobaczyć w krótkim eksperymencie.
+
+Dlatego projekt **Kod Człowieka** jest pomyślany jako inicjatywa wieloletnia — na dekady, a potencjalnie także na kolejne pokolenia technologii.
+
+---
+
+## Dlaczego te dane są tak ważne?
+
+Dane o rzeczywistym rozwoju człowieka, codziennych interakcjach, ruchu, dotyku, emocjach, środowisku i relacjach są niezwykle trudne do zdobycia.
+
+Jednocześnie mogą być bezcenne dla rozwoju:
+
+* ucieleśnionej sztucznej inteligencji,
+* robotyki społecznej,
+* systemów opiekuńczych,
+* profilaktyki zdrowotnej,
+* bezpieczeństwa dzieci,
+* wsparcia seniorów,
+* psychologii rozwoju,
+* pedagogiki,
+* neurobiologii,
+* nauk społecznych,
+* nowych modeli AI uczących się przez doświadczenie.
+
+Projekt nie zakłada budowy systemu masowej inwigilacji.
+
+Zakłada budowę infrastruktury, w której surowe dane prywatne są chronione, a do badań trafiają wyłącznie bezpieczne, anonimowe lub pseudonimizowane reprezentacje badawcze.
+
+---
+
+## Dlaczego Polska?
+
+Projekt może stać się szansą na stworzenie w Polsce nowego sektora technologiczno-badawczego.
+
+Polska ma potencjał, aby nie być wyłącznie odbiorcą cudzych technologii AI, ale współtwórcą nowego kierunku rozwoju: **Embodied AI opartej na etycznych, długoterminowych danych z realnego świata**.
+
+Taki kierunek może połączyć:
+
+* uczelnie,
+* instytuty badawcze,
+* programistów,
+* inżynierów robotyki,
+* elektroników,
+* lekarzy,
+* psychologów,
+* pedagogów,
+* firmy technologiczne,
+* spółki państwowe,
+* sektor ubezpieczeniowy,
+* sektor finansowy,
+* fundacje,
+* samorządy,
+* instytucje publiczne,
+* partnerów europejskich.
+
+Pierwszy etap projektu może rozwijać się w Polsce.
+Drugi etap może objąć Europę.
+Trzeci etap może stać się globalnym, otwartym ekosystemem badawczo-technologicznym.
+
+---
+
+## Kto zyskuje na projekcie?
+
+Projekt został pomyślany tak, aby korzyści były rozłożone społecznie, naukowo i technologicznie.
+
+### Rodziny i rodzice
+
+Rodzice mogą zyskać dodatkową warstwę bezpieczeństwa dla dziecka.
+
+System może w przyszłości pomagać zauważać:
+
+* możliwe zagrożenia w otoczeniu,
+* nietypowe wzorce zachowania,
+* problemy ze snem,
+* sygnały stresu,
+* ryzyko zadławienia,
+* możliwy bezdech,
+* upadek,
+* niebezpieczne warunki środowiskowe,
+* dym, czad, zalanie lub inne zdarzenia domowe.
+
+Taki system nie zastępuje rodzica, lekarza ani opiekuna.
+Może jednak działać jako dodatkowa warstwa wczesnego ostrzegania.
+
+### Dzieci i młodzież
+
+Długoterminowa ciągłość danych może w przyszłości pomagać lepiej rozumieć rozwój dziecka, nastolatka i osoby dorosłej.
+
+Te same anonimowe wzorce rozwojowe mogą po latach pomóc wykrywać zależności, których na początku projektu jeszcze nie znamy.
+
+To może mieć znaczenie dla:
+
+* edukacji,
+* profilaktyki,
+* psychologii rozwojowej,
+* bezpieczeństwa,
+* wczesnego wykrywania niepokojących zmian,
+* lepszego rozumienia procesu dojrzewania.
+
+### Seniorzy i osoby samotne
+
+Dla osób starszych system może stać się czymś więcej niż urządzeniem badawczym.
+
+Może pełnić funkcję:
+
+* cyfrowego towarzysza,
+* asystenta bezpieczeństwa,
+* systemu wykrywania upadków,
+* systemu wykrywania długotrwałego bezruchu,
+* przypomnienia o rutynie dnia,
+* interfejsu kontaktu z rodziną lub opiekunem.
+
+Ważnym celem jest nie tylko bezpieczeństwo, ale także ograniczenie samotności.
+
+### Uczelnie i naukowcy
+
+Uczelnie i instytuty badawcze mogą zyskać dostęp do zupełnie nowego typu materiału badawczego.
+
+Nie chodzi o jednorazowe ankiety czy krótkie eksperymenty laboratoryjne, ale o długoterminowe, etycznie pozyskane dane dotyczące rozwoju, interakcji i zachowania w czasie.
+
+To może otworzyć nowe kierunki badań w obszarach:
+
+* AI,
+* robotyki,
+* psychologii,
+* pedagogiki,
+* neurobiologii,
+* nauk społecznych,
+* medycyny prewencyjnej,
+* bezpieczeństwa domowego,
+* interakcji człowiek–maszyna.
+
+### Państwo i społeczeństwo
+
+Państwo może zyskać narzędzie wspierające profilaktykę i bezpieczeństwo społeczne.
+
+Wczesne wykrywanie zagrożeń, chorób, problemów rozwojowych lub sytuacji kryzysowych może w przyszłości ograniczyć koszty:
+
+* opieki zdrowotnej,
+* opieki senioralnej,
+* hospitalizacji,
+* późnej diagnostyki,
+* interwencji kryzysowych,
+* skutków zaniedbań wykrytych zbyt późno.
+
+Jeśli problemy są wykrywane wcześniej, społeczeństwo może reagować szybciej, taniej i skuteczniej.
+
+### Firmy i przemysł
+
+Firmy uczestniczące w projekcie mogą rozwijać:
+
+* produkcję urządzeń,
+* elektronikę,
+* czujniki,
+* systemy Edge AI,
+* cyberbezpieczeństwo,
+* robotykę,
+* oprogramowanie,
+* infrastrukturę danych,
+* know-how,
+* kompetencje eksportowe,
+* nowe miejsca pracy.
+
+Projekt może stworzyć nowy sektor gospodarki oparty na etycznej robotyce, Embodied AI i długoterminowych danych badawczych.
+
+### Partnerzy finansowi i ubezpieczeniowi
+
+Sektor finansowy i ubezpieczeniowy może wspierać projekt, jeśli robi to w sposób odpowiedzialny i zgodny z zasadami prywatności.
+
+Urządzenia rozwijane w ramach projektu mogą w przyszłości pomagać wykrywać zdarzenia takie jak:
+
+* pożar,
+* czad,
+* zalanie,
+* upadek,
+* nagły bezruch,
+* zagrożenie życia lub zdrowia,
+* niebezpieczne warunki środowiskowe.
+
+To może ograniczać szkody, zwiększać bezpieczeństwo i zmniejszać koszty społeczne oraz ubezpieczeniowe.
+
+Jednocześnie partnerzy nie mogą wykorzystywać prywatnych danych użytkowników do ukrytego profilowania, podnoszenia składek, odmowy usług lub oceny człowieka bez jasnej zgody, podstawy prawnej i kontroli etycznej.
+
+---
+
+## Dostępność finansowa
+
+Projekt nie powinien być luksusowym produktem dostępnym wyłącznie dla bogatych rodzin.
+
+Docelowo fizyczne urządzenia powinny być finansowane z:
+
+* grantów badawczych,
+* programów krajowych,
+* programów europejskich,
+* środków instytucjonalnych,
+* partnerstw publiczno-prywatnych,
+* funduszy naukowych,
+* odpowiedzialnego finansowania firm i instytucji.
+
+Rodzina nie powinna ponosić pełnego kosztu produkcji urządzenia.
+
+Jeśli rzeczywisty koszt produkcji zaawansowanej platformy sensorycznej wynosiłby na przykład kilka lub kilkanaście tysięcy złotych, użytkownik końcowy mógłby ponosić jedynie symboliczną lub zwrotną opłatę, na przykład w formie kaucji za urządzenie.
+
+Celem jest model, w którym:
+
+* rodzina otrzymuje realną korzyść bezpieczeństwa,
+* nauka otrzymuje długoterminowy materiał badawczy,
+* państwo zmniejsza przyszłe koszty społeczne,
+* firmy rozwijają kompetencje i produkcję,
+* Polska buduje nowy sektor technologiczny,
+* AI otrzymuje dane, których nie da się pozyskać z internetu.
+
+---
+
+## Projekt na wczesnym etapie
+
+Projekt jest obecnie na wczesnym etapie. Oznacza to, że szczególnie ważne są teraz:
 
 * pomysły,
 * krytyczne uwagi,
@@ -16,263 +255,9 @@ Projekt jest na wczesnym etapie. Oznacza to, że szczególnie ważne są teraz:
 * propozycje architektury,
 * pierwsze prototypy,
 * kontakty naukowe,
-* wsparcie organizacyjne.
-
----
-
-## 1. Kto może pomóc?
-
-Do projektu zapraszamy osoby i instytucje z różnych obszarów.
-
-### Nauka i badania
-
-* naukowcy,
-* psychologowie rozwojowi,
-* pedagodzy,
-* neurobiolodzy,
-* badacze AI,
-* badacze robotyki,
-* etycy technologii,
-* specjaliści od RODO/GDPR,
-* uczelnie,
-* instytuty badawcze.
-
-### Technologia
-
-* programiści AI,
-* inżynierowie robotyki,
-* elektronicy,
-* projektanci systemów embedded,
-* specjaliści Edge AI,
-* specjaliści cyberbezpieczeństwa,
-* projektanci baz danych,
-* projektanci systemów chmurowych,
-* twórcy symulacji,
-* projektanci gier edukacyjnych.
-
-### Hardware i projektowanie
-
-* konstruktorzy robotów,
-* projektanci 3D,
-* projektanci obudów,
-* specjaliści od tekstyliów,
-* projektanci zabawek,
-* inżynierowie materiałowi,
-* projektanci interakcji człowiek–maszyna.
-
-### Organizacja i rozwój
-
-* osoby od grantów,
-* osoby od partnerstw,
-* fundacje,
-* organizacje społeczne,
-* firmy technologiczne,
-* odpowiedzialni inwestorzy,
-* instytucje publiczne,
-* partnerzy przemysłowi.
-
----
-
-## 2. W czym można pomóc teraz?
-
-Projekt znajduje się na etapie budowania fundamentów.
-
-Najbardziej potrzebne są obecnie:
-
-* poprawki w dokumentacji,
-* uwagi do architektury,
-* rozwinięcie zasad prywatności,
-* analiza ryzyk etycznych,
-* propozycje modelu danych,
-* opis potencjalnych czujników,
-* opis możliwych prototypów,
-* przygotowanie wersji angielskiej dokumentacji,
-* przygotowanie schematów systemu,
-* wskazanie potencjalnych partnerów badawczych,
-* analiza możliwości finansowania grantowego.
-
----
-
-## 3. Jak zgłosić pomysł?
-
-Najprostszy sposób to otworzyć **Issue** w repozytorium GitHub.
-
-Issue może dotyczyć na przykład:
-
-* błędu w tekście,
-* propozycji nowej sekcji,
-* pytania technicznego,
-* ryzyka etycznego,
-* pomysłu na prototyp,
-* propozycji czujnika,
-* propozycji partnerstwa,
-* sugestii dotyczącej finansowania,
-* uwagi do prywatności,
-* propozycji badań.
-
-Przykładowy tytuł Issue:
-
-```text
-Propozycja: model danych haptycznych dla pierwszego prototypu
-```
-
-Albo:
-
-```text
-Ryzyko etyczne: dostęp partnerów zewnętrznych do danych użytkownika
-```
-
----
-
-## 4. Jak zgłosić zmianę w pliku?
-
-Jeśli chcesz zaproponować konkretną zmianę, możesz użyć mechanizmu **Pull Request**.
-
-Pull Request to propozycja zmiany, którą autorzy projektu mogą sprawdzić, omówić i zaakceptować.
-
-Dobre Pull Requesty powinny być:
-
-* jasne,
-* krótkie,
-* opisane prostym językiem,
-* zgodne z misją projektu,
-* zgodne z zasadami etycznymi,
-* zgodne z zasadami prywatności.
-
----
-
-## 5. Zasady komunikacji
-
-W projekcie obowiązuje szacunek.
-
-Dyskusje mogą być krytyczne, ale powinny pozostać rzeczowe.
-
-Prosimy o:
-
-* kulturę wypowiedzi,
-* unikanie ataków osobistych,
-* jasne argumentowanie,
-* szacunek wobec osób początkujących,
-* szacunek wobec różnych dziedzin wiedzy,
-* otwartość na poprawki,
-* ostrożność przy tematach dzieci, zdrowia, danych i bezpieczeństwa.
-
-Projekt dotyka bardzo wrażliwych obszarów, dlatego komunikacja musi być odpowiedzialna.
-
----
-
-## 6. Czego nie akceptujemy?
-
-Nie akceptujemy wkładów, które prowadzą do:
-
-* masowej inwigilacji,
-* ukrytego profilowania ludzi,
-* nieetycznego monitorowania dzieci,
-* wykorzystywania danych wrażliwych,
-* manipulacji emocjonalnej,
-* dyskryminacji,
-* tworzenia systemów społecznego scoringu,
-* naruszania prywatności,
-* zachęcania do przemocy,
-* użycia projektu przeciwko ludziom.
-
-Projekt ma służyć bezpieczeństwu, nauce i rozwojowi odpowiedzialnej AI — nie kontroli człowieka.
-
----
-
-## 7. Priorytety projektu
-
-Każdy wkład powinien być zgodny z głównymi priorytetami projektu:
-
-1. **Bezpieczeństwo człowieka**
-2. **Prywatność**
-3. **Etyka**
-4. **Transparentność**
-5. **Open Source**
-6. **Wartość naukowa**
-7. **Odpowiedzialny rozwój Embodied AI**
-
-Jeśli jakaś propozycja jest technicznie ciekawa, ale narusza prywatność lub bezpieczeństwo człowieka, nie powinna być rozwijana w ramach tego projektu.
-
----
-
-## 8. Obszary do rozwijania
-
-### Dokumentacja
-
-* README,
-* ETHICS,
-* PRIVACY,
-* ROADMAP,
-* ARCHITECTURE,
-* model danych,
-* założenia sprzętowe,
-* scenariusze użycia.
-
-### AI i dane
-
-* Edge AI,
-* anonimizacja,
-* wektory cech,
-* dane haptyczne,
-* dane ruchu,
-* dane środowiskowe,
-* długoterminowe modele interakcji,
-* sztuczne stany wewnętrzne,
-* modele uczenia przez doświadczenie.
-
-### Hardware
-
-* miękka platforma sensoryczna,
-* czujniki dotyku,
-* czujniki nacisku,
-* IMU,
-* ToF,
-* LiDAR,
-* czujniki środowiskowe,
-* czujniki czadu, dymu i zalania,
-* lokalne układy NPU,
-* bezpieczna obudowa.
-
-### Badania
-
-* psychologia rozwoju,
-* robotyka rozwojowa,
-* obliczenia afektywne,
-* uczenie przez wzmacnianie,
-* interakcja człowiek–robot,
-* etyka AI,
-* bezpieczeństwo dzieci i seniorów.
-
----
-
-## 9. Zgłaszanie ryzyk
-
-Jeśli zauważysz ryzyko związane z projektem, zgłoś je.
-
-Szczególnie ważne są ryzyka dotyczące:
-
-* prywatności,
-* dzieci,
-* osób starszych,
-* zdrowia,
-* danych biometrycznych,
-* danych behawioralnych,
-* partnerstw komercyjnych,
-* bezpieczeństwa fizycznego,
-* błędnej interpretacji danych,
-* zbyt daleko idących deklaracji medycznych.
-
-Ryzyka nie są przeszkodą w projekcie. Są częścią odpowiedzialnego projektowania.
-
----
-
-## 10. Zasada przewodnia dla współtwórców
-
-> **Nie pytamy tylko, czy coś da się zbudować.
-> Pytamy również, czy powinno być zbudowane — i na jakich zasadach.**
-
-Dziękujemy za każdą pomoc, uwagę i propozycję.
-
-Projekt **Kod Człowieka** może rozwijać się tylko jako wspólna, odpowiedzialna i transparentna inicjatywa.
-
+* wsparcie organizacyjne,
+* analiza możliwości finansowania,
+* rozmowy z potencjalnymi partnerami,
+* przygotowanie podstaw pod granty i programy badawcze.
+
+Wkład na tym etapie może mieć ogromne znaczenie, ponieważ kształtuje fundament całego projektu.
