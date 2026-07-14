@@ -192,22 +192,59 @@ Projekt nie powinien udawać, że rozwiązał problemy, które nadal pozostają 
 
 ---
 
-## 9. Odpowiedzialne finansowanie
+## 9. Odpowiedzialne finansowanie i partnerstwa
 
-Projekt może być rozwijany z wykorzystaniem grantów, programów badawczych, funduszy publicznych, partnerstw instytucjonalnych i współpracy z sektorem technologicznym.
+Projekt **Kod Człowieka** może być rozwijany z wykorzystaniem grantów, programów badawczych, funduszy publicznych, partnerstw instytucjonalnych, współpracy z sektorem technologicznym oraz odpowiedzialnego finansowania prywatnego.
 
-Finansowanie nie może jednak zmieniać podstawowych zasad projektu.
+Projekt może współpracować między innymi z:
+
+- instytucjami publicznymi,
+- uczelniami,
+- instytutami badawczymi,
+- programami grantowymi,
+- jednostkami samorządowymi,
+- spółkami państwowymi,
+- firmami prywatnymi,
+- sektorem Deep Tech,
+- firmami ubezpieczeniowymi,
+- bankami,
+- fundacjami,
+- organizacjami społecznymi,
+- partnerami przemysłowymi.
+
+Taka współpraca może być szczególnie cenna w obszarach:
+
+- bezpieczeństwa dzieci i seniorów,
+- wykrywania sytuacji zagrożenia życia lub zdrowia,
+- ostrzegania przed pożarem, czadem, zalaniem lub innymi zdarzeniami domowymi,
+- rozwoju technologii Edge AI,
+- cyberbezpieczeństwa,
+- badań naukowych,
+- budowy prototypów,
+- infrastruktury danych,
+- finansowania długoterminowego programu B+R.
+
+Jednocześnie finansowanie lub partnerstwo nie może zmieniać podstawowych zasad projektu.
+
+Partnerzy projektu nie powinni otrzymywać dostępu do prywatnych, surowych ani identyfikujących danych użytkowników, jeśli nie jest to wyraźnie uzasadnione, zgodne z prawem, dobrowolne, transparentne i objęte osobną zgodą.
 
 Projekt nie powinien przyjmować finansowania, jeśli jego warunkiem byłoby:
 
-* naruszenie prywatności użytkowników,
-* komercyjna eksploatacja danych wrażliwych,
-* ukryte profilowanie osób,
-* tworzenie systemów nadzoru,
-* rozwój technologii manipulacji,
-* wykorzystanie projektu przeciwko ludziom.
+- naruszenie prywatności użytkowników,
+- ukryte profilowanie osób,
+- wykorzystywanie danych behawioralnych do dyskryminacji,
+- podnoszenie składek, ograniczanie usług lub podejmowanie decyzji finansowych na podstawie prywatnych danych użytkownika,
+- tworzenie systemów nadzoru,
+- manipulacja emocjonalna,
+- komercyjna eksploatacja danych wrażliwych bez jasnej zgody i kontroli,
+- wykorzystanie projektu przeciwko ludziom.
 
-Rozwój technologii musi być zgodny z misją projektu.
+Dopuszczalne jest natomiast odpowiedzialne partnerstwo, w którym instytucja publiczna, firma prywatna, bank, ubezpieczyciel lub spółka technologiczna wspiera rozwój projektu finansowo, badawczo, infrastrukturalnie lub technologicznie, bez przejmowania kontroli nad prywatnością użytkowników.
+
+Najważniejsza zasada:
+
+> **Partner może finansować bezpieczeństwo, badania i technologię.  
+> Partner nie może kupować dostępu do człowieka.**
 
 ---
 
