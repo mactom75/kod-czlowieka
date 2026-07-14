@@ -236,8 +236,69 @@ Firmy mogą zyskać:
 Warunkiem jest zgodność z zasadami etyki i prywatności projektu.
 
 ---
+## 10. Potencjalni partnerzy technologiczni AI
 
-## 10. Ubezpieczyciele
+Naturalnymi kandydatami do rozmów partnerskich mogą być polskie oraz europejskie zespoły rozwijające modele językowe, technologie głosu, systemy agentowe, narzędzia Edge AI oraz infrastrukturę dla bezpiecznej sztucznej inteligencji.
+
+Na tym etapie nie oznacza to formalnego partnerstwa, lecz wskazuje kierunki możliwych rozmów, kontaktów i współpracy.
+
+### Bielik.AI / SpeakLeash
+
+Jednym z intuicyjnych kandydatów do rozmów może być ekosystem **Bielik.AI / SpeakLeash** — polska inicjatywa rozwijająca otwarte modele językowe dla języka polskiego i kontekstu europejskiego.
+
+Potencjalne obszary współpracy:
+
+- polski model językowy dla interfejsu projektu,
+- lokalne przetwarzanie języka,
+- rozumienie polskiego kontekstu kulturowego,
+- modele działające w środowisku Edge AI,
+- bezpieczeństwo odpowiedzi językowych,
+- edukacja i komunikacja z użytkownikiem,
+- rozwój polskiej suwerenności technologicznej w AI.
+
+Dla projektu **Kod Człowieka** szczególnie ważne jest to, aby przyszły system rozumiał język, kulturę, emocje i kontekst społeczny użytkowników w Polsce, a później również w Europie.
+
+---
+
+### ElevenLabs
+
+Drugim naturalnym kandydatem do rozmów może być **ElevenLabs** — firma rozwijająca zaawansowane technologie głosu, syntezy mowy, dubbingu i komunikacji głosowej AI.
+
+Potencjalne obszary współpracy:
+
+- naturalna synteza mowy dla cyfrowego towarzysza,
+- bezpieczny głos urządzenia,
+- wielojęzyczna komunikacja,
+- głos dla dzieci, seniorów i osób samotnych,
+- systemy ostrzegania głosowego,
+- personalizacja komunikatów bezpieczeństwa,
+- rozwój emocjonalnie zrozumiałych, ale etycznych interfejsów głosowych.
+
+W projekcie **Kod Człowieka** głos nie powinien służyć manipulacji emocjonalnej.
+
+Głos powinien służyć:
+
+- bezpieczeństwu,
+- zrozumiałości,
+- dostępności,
+- redukcji samotności,
+- komunikacji z człowiekiem,
+- ostrzeganiu w sytuacjach wymagających uwagi.
+
+---
+
+### Zasada dla partnerów AI
+
+Potencjalni partnerzy AI mogą wspierać projekt technologicznie, językowo, głosowo i badawczo.
+
+Nie powinni jednak otrzymywać dostępu do prywatnych, surowych ani identyfikujących danych użytkowników tylko dlatego, że dostarczają model, głos lub infrastrukturę.
+
+Najważniejsza zasada:
+
+> **Model językowy i głos mogą wspierać relację człowiek–technologia.  
+> Nie mogą zastąpić prywatności, zgody i bezpieczeństwa człowieka.**
+
+## 11. Ubezpieczyciele
 
 Sektor ubezpieczeniowy może być ważnym partnerem, ponieważ projekt może rozwijać systemy zwiększające bezpieczeństwo domu, dziecka, seniora i środowiska.
 
@@ -269,7 +330,7 @@ Niedopuszczalne jest kupowanie dostępu do prywatnego życia człowieka.
 
 ---
 
-## 11. Banki i sektor finansowy
+## 12. Banki i sektor finansowy
 
 Banki oraz sektor finansowy mogą wspierać projekt jako partnerzy:
 
@@ -305,7 +366,7 @@ Bank nie może używać projektu jako narzędzia oceny człowieka.
 
 ---
 
-## 12. Firmy prywatne
+## 13. Firmy prywatne
 
 Firmy prywatne mogą uczestniczyć w projekcie, jeśli ich udział jest zgodny z misją projektu.
 
@@ -333,7 +394,7 @@ Warunkiem jest jasna granica:
 
 ---
 
-## 13. Organizacje społeczne i fundacje
+## 14. Organizacje społeczne i fundacje
 
 Organizacje społeczne oraz fundacje mogą wspierać projekt w obszarach:
 
@@ -353,7 +414,7 @@ Musi uwzględniać realne potrzeby ludzi.
 
 ---
 
-## 14. Model finansowania urządzeń i dostępność społeczna
+## 15. Model finansowania urządzeń i dostępność społeczna
 
 Zaawansowana platforma sensoryczna może być kosztowna.
 
@@ -461,7 +522,7 @@ Projekt nie powinien stać się luksusowym produktem tylko dla najbogatszych.
 
 Powinien być dostępny dla różnych grup społecznych, ponieważ tylko wtedy może tworzyć wartościowe, sprawiedliwe i długoterminowe podstawy dla przyszłej ucieleśnionej sztucznej inteligencji.
 ---
-## 15. Zasady dostępu do danych
+## 16. Zasady dostępu do danych
 
 Dostęp do danych powinien być ograniczony i zależny od roli.
 
@@ -505,7 +566,7 @@ Projekt nie powinien stać się narzędziem masowego nadzoru.
 
 ---
 
-## 16. Czego partnerzy nie mogą robić
+## 17. Czego partnerzy nie mogą robić
 
 Partnerzy nie mogą wykorzystywać projektu do:
 
@@ -524,7 +585,7 @@ Partnerzy nie mogą wykorzystywać projektu do:
 
 ---
 
-## 17. Co partnerzy mogą robić
+## 18. Co partnerzy mogą robić
 
 Partnerzy mogą:
 
@@ -546,7 +607,7 @@ Partnerzy mogą:
 
 ---
 
-## 18. Korzyści wspólne
+## 19. Korzyści wspólne
 
 Projekt powinien być modelem, w którym wygrywają różne strony.
 
@@ -584,7 +645,7 @@ Zyskuje dane, których nie da się pozyskać z internetu.
 
 ---
 
-## 19. Zasada końcowa
+## 20. Zasada końcowa
 
 > **Partnerstwo ma służyć człowiekowi, nauce i bezpieczeństwu.  
 > Nie może zamieniać człowieka w produkt.**
