@@ -32,6 +32,7 @@ Najważniejsze dokumenty projektu:
 - [ARCHITECTURE.md](ARCHITECTURE.md) — architektura systemu
 - [DATA_MODEL.md](DATA_MODEL.md) — model danych i zasady ich przetwarzania
 - [PROTOTYPE.md](PROTOTYPE.md) — pierwszy prototyp: pluszowa platforma sensoryczna 0–2 lata
+- [SOFTWARE_PLATFORM.md](SOFTWARE_PLATFORM.md) — aplikacja, konta użytkowników, ciągłość kohort i analiza danych
 - [PARTNERSHIPS.md](PARTNERSHIPS.md) — partnerstwa, finansowanie i zasady współpracy
 - [LICENSE](LICENSE) — licencja projektu
 
