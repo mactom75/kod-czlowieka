@@ -1,1 +1,37 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
+Kod Człowieka (Human Code Project)
+
+Copyright (c) 2026 Tomasz Maciąg
+
+This project documentation, concept, research structure, ethics framework, roadmap, and public materials are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+You are free to:
+
+- Share — copy and redistribute the material in any medium or format.
+- Adapt — remix, transform, and build upon the material.
+
+Under the following terms:
+
+- Attribution — You must give appropriate credit to the original author and project.
+- NonCommercial — You may not use the material for commercial purposes without explicit permission.
+- ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
+
+Commercial use, institutional implementation, product development, grant-based deployment, industrial cooperation, or integration into commercial systems requires separate written permission or a dedicated partnership agreement.
+
+The project may later use separate licenses for software, hardware, datasets, research materials, and technical implementations.
+
+Suggested future licensing structure:
+
+- Documentation: CC BY-NC-SA 4.0
+- Software code: Apache License 2.0 or AGPLv3
+- Hardware designs: CERN Open Hardware License
+- Research datasets: separate controlled-access research license
+- Brand / project name: separate trademark and governance rules
+
+Full license text:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Important note:
+
+This license does not grant permission to use the project for surveillance, hidden profiling, manipulation, unauthorized processing of sensitive data, or any use that violates the ethical principles described in ETHICS.md and PRIVACY.md.
