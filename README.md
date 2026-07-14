@@ -385,11 +385,11 @@ Przykłady:
 
 | Biologiczny mechanizm | Funkcjonalny odpowiednik w AI | Rola w systemie |
 |---|---|---|
-| Adrenalina | tryb alarmowy | priorytet bezpieczeństwa |
-| Dopamina | nagroda uczenia | wzmacnianie skutecznych zachowań |
-| Oksytocyna | priorytet więzi | stabilność relacji z opiekunem |
-| Kortyzol | poziom stresu | reakcja na przeciążenie lub chaos |
-| Serotonina | stabilność systemowa | regulacja nastroju i impulsów |
+| Adrenalina | Tryb alarmowy | Priorytet bezpieczeństwa |
+| Dopamina | Nagroda uczenia | Wzmacnianie skutecznych zachowań |
+| Oksytocyna | Priorytet więzi | Stabilność relacji z opiekunem |
+| Kortyzol | Poziom stresu | Reakcja na przeciążenie lub chaos |
+| Serotonina | Stabilność systemowa | Regulacja nastroju i impulsów |
 
 Taki moduł powinien być projektowany ostrożnie, z audytem etycznym i ograniczeniami bezpieczeństwa.
 
@@ -403,7 +403,7 @@ Zakładane źródła finansowania:
 
 - granty naukowe,
 - granty krajowe,
-- programy NCBR / NCBiR,
+- programy NCBR 
 - programy europejskie typu Horizon Europe,
 - uczelnie,
 - instytuty badawcze,
